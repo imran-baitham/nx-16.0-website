@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve library",
+    "build": "npx nx build library",
     "update": "nx migrate latest",
     "list": "nx list",
     "format": "prettier -w ./ --ignore-path .prettierignore",

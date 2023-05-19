@@ -22,4 +22,6 @@ npm i typescript -D -W // install typescript -w => workspace
 
 npm install -D @nx/storybook // install storybook
 
+yarn nx run library-e2e:e2e // test for end 2 end
+
 ```

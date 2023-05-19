@@ -1,12 +1,14 @@
-import styles from './shared-greeter.module.css';
-
 /* eslint-disable-next-line */
-export interface SharedGreeterProps {}
+export interface SharedGreeterProps {
+  name: string;
+}
 
 export function SharedGreeter(props: SharedGreeterProps) {
+  const { name } = props;
+
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to SharedGreeter!</h1>
+    <div>
+      <h1>Welcome to SharedGreeter! {name}</h1>
     </div>
   );
 }

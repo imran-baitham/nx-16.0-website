@@ -7,7 +7,7 @@ export function NxWelcome({ title }: { title: string }) {
         <span> Hello there, </span>
         Welcome {title} 👋
       </h1>
-      <SharedGreeter />
+      <SharedGreeter name="Imran Baitham" />
     </div>
   );
 }
